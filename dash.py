@@ -1,10 +1,6 @@
 import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
-import basedosdados as bd
 import plotly.express as px
 import streamlit as st
-from datetime import datetime
 # importando a bse
 df = pd.read_csv('ocor_1746_31abril.csv', sep = ';')
 
